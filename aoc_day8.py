@@ -33,6 +33,7 @@ def full_image(pixel_list, wide, tall):
                     break
     print(final_image)
     plt.imshow(final_image)
+    plt.savefig("aoc_day8_part2_path_pic.png")
     plt.show()
 
 # input
